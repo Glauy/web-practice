@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theme Switcher</title>
+    <link
+      id="theme-stylesheet"
+      rel="stylesheet"
+      href="styles/light-theme.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        transition: background-color 0.3s ease;
+      }
+
+      button {
+        padding: 10px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Theme Switcher</h1>
+    <p>This is a simple theme switcher example.</p>
+
+    <button onclick="switchTheme('light')">Switch to Light Theme</button>
+    <button onclick="switchTheme('dark')">Switch to Dark Theme</button>
+
+    <script src="scripts/theme-switcher.js"></script>
+  </body>
+</html>
